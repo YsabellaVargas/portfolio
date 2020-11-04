@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en" style="width: 100%;height: 100%">
+<head>
+  <title>Werk | To-Do List</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/4741082a60.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link rel="icon" type="image/png" href="links/favicon.png"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!-- top bars -->
+  <div class="container_fluid">
+  <div class="bar top-bar">
+    <a href="index.html#contact">
+    <div class="top-bar-contact">CONTACT</div>
+    </a>
+    <a href="index.html#home">
+    <div class="top-bar-contact_home">HOME</div>
+    </a>
+  </div>
+  <div class="bar right-bar"></div>
+  <div class="bar bottom-bar"></div>
+  <div class="bar left-bar"></div>
+  </div>
+  <!-- end top bars -->
+
+  <!-- menu overlay -->
+  <div id="myNav" class="overlay">
+  	<div class="overlay-left">
+  		<p> Ysabella Vargas Reyes </p>
+
+  		<div class="overlay-menu">
+  			<div class="overlay-nav">
+  				<a href="index.html#home">HOME</a>
+          <br>
+		        <a href="index.html#overmij">OVERMIJ</a>
+            <br>
+		        <a class="toggledropdown" href="index.html#werk">WERK</a>
+		        	<div class="submenu">
+                <a href="stevengeldof.html"><span class="dash"></span>  Steven Geldof </a>
+                <a href="todolist.html"><span class="dash"></span>  To-Do List </a>
+                <a href="jokesol.html"><span class="dash"></span>  Pedicure Praktijk Sol </a>
+                <a href="nu-in.html"><span class="dash"></span>  NU-IN Fashion </a>
+		        	</div>
+              <br>
+		        <a href="index.html#contact">CONTACT</a>
+  			</div>
+  		</div>
+  	</div>
+
+  	<div class="overlay-right">
+  	</div>
+  </div>
+  <a id="openNav" class="menu">
+	  <div class="menu-icon">
+	  	<div class="icon-bar one"></div>
+	  	<div class="icon-bar two"></div>
+	  	<div class="icon-bar three"></div>
+	  </div>
+	   <span class="menu_text">MENU</span>
+  </a>
+  <!-- end menu overlay -->
+
+  <!-- back to top button -->
+  <a href="#" id="scroll" style="display: none;"><span></span></a>
+  <!-- end back to top button -->
+
+  <!-- header info -->
+  <div class="container-fluid">
+  	<div class="row">
+  		<div class="col-sm-9">
+        <div class="header_werk">
+          <img class="header_foto" src="links/todolist/werk_todolist_zondercirkel.png" alt="werk">
+        </div>
+      </div>
+      <div class="col-sm-3" style="background-color:#d7a003;">
+        <div class="programma">
+          <h4>PROGRAMMA'S</h4>
+          <div class="underline_left"></div>
+          <h6 class="programma_tekst">Indesign, Photoshop, Adobe xd</h6>
+          <p class="programma_tekst">De afbeeldingen die zijn gebruikt heb ik van verschillende online platformen gebruikt.</p>
+          <div class="button_group">
+            <p><a href="links/todolist/bronnen_todolist.png" class="extern_button" type="button" target="_blank">Zie bronnen</a></p>
+            <p class="programma_tekst">Bekijk mijn prototype:</p>
+            <a href="https://xd.adobe.com/view/832f5769-7731-4a34-8089-fd8d39d00696-d67c/" type="button" class="extern_button" target="_blank" >Prototype To-Do List</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end header info -->
+
+<!-- tekst/inleiding -->
+<div class="container-fluid" style="background-color: #ffffff;">
+  <div class="informatie">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="titel_project"> TO-DO LIST </h1>
+        <div class="underline_tekst"></div>
+        <h6 class="subtitel_project"> school project voor Hogeschool van Amsterdam </h6>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-7">
+        <h1 class="inleiding">Het 1ste project van het tweede jaar HBO communication & multimediadesign was om een multi-device website voor op reis te maken.</h1>
+         <br>
+        <h5> HET IDEE </h5>
+        <div class="underline_tekst"></div>
+        <p class="left_tekst">Ik stel mijzelf hierbij de vragen: waar wil je heen, wat wil je beleven en wat heb je nodig als je op reis gaat. Misschien wil je wel alles makkelijk kunnen bijhouden zodat je zeker weten niks vergeet op reis. </p>
+        <p class="left_tekst">Ik wilde een product opleveren die graag gebruikt wordt door reizigers voor als ze op reis zijn of nog moeten gaan. Het is de bedoeling dat de gebruikers met de To-Do List app niks hoeven te vergeten voor, tijdens en na hun reis. </p>
+         <br>
+         <h5> DOEL </h5>
+         <div class="underline_tekst"></div>
+         <p class="left_tekst">Het doel is om gebruikers een reis te laten plannen zonder iets te vergeten. Ze moeten bestemmingen kunnen bekijken, reviews kunnen plaatsen en zien van andere bezoekers. Je moet ook zelf items kunnen toevoegen aan de to-do list. Er moet een duidelijke overgang zijn tussen devices zodat de app overal kan worden gebruikt. Alle informatie moet automatisch worden gesynchroniseerd.</p>
+         <p class="left_tekst">Aan de hand van het gemaakte prototype moet de ervaring zo echt mogelijk overkomen voor de gebruiker.</p>
+      </div>
+      <div class="col-sm-5">
+        <div class="extra_informatie">
+          <h4>KLANT</h4>
+          <div class="underline_tekst"></div>
+          <h6 class="klant">Docent Project Web HvA</h6>
+          <br>
+          <h4>MIJN ROL</h4>
+          <div class="underline_tekst"></div>
+          <h6 class="rol" style="line-height:1.8;">Grafisch ontwerper, Concept designer, Digitaal product designer, Prototype maken</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end tekst/inleiding -->
+
+<!-- uitleg opdracht -->
+<div class="container-fluid" style="width:80%; margin-top: 4%; margin-bottom: 4%;">
+  <div class="opdracht">
+    <div class="row">
+      <div class="col-sm-12">
+        <h5 class="titel"> DE OPDRACHT </h5>
+        <hr align="center">
+        <br>
+        <p>Voor deze opdracht was de eis: maak een multi-device website voor op reis. Ik heb mijzelf hierbij de vragen gesteld: waar wil je heen, wat wil je beleven en wat heb je nodig als je op reis gaat. Hieruit heb ik een concept bedacht die reizigers zal helpen voor, tijdens en na hun reis.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end uitleg opdracht -->
+
+<!-- design rationale -->
+<div class="container-fluid" style="background-color: #ffffff;">
+  <div class="onderdeel_project">
+    <div class="row" style="margin-top: 7%;">
+      <div class="col-sm-12">
+        <h5 class="titel"> DESIGN RATIONALE </h5>
+        <hr align="center">
+        <br>
+        <div class="width">
+          <p>In de design rationale heb ik mijn concept beschreven en laat ik de werking zien van de meest belangrijke schermen. Klik op onderstaande afbeelding om mijn design rationale te bekijken.</p>
+        </div>
+        <div class="designrationale_todolist">
+          <a href="links/todolist/designrationale_todolist.pdf" target="_blank"><img src="links/todolist/designrationalecover_todolist.png" alt="designrationale" </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End design rationale -->
+
+<!-- API -->
+<div class="container-fluid" style="width:80%; margin-top: 4%; margin-bottom: 4%;">
+  <div class="opdracht">
+    <div class="row">
+      <div class="col-sm-12">
+        <h5 class="titel"> API's </h5>
+        <hr align="center">
+        <br>
+        <p>Voordat ik begon aan het bedenken van mijn concept heb ik onderzoek gedaan naar API’s (Application Programming Interface) die mij aanspraken om eventueel iets mee te doen. Ik ben gekomen op Tripadvisor & Todo.ly. Dit onderzoek was onderdeel van het proces zodat je bewust wordt van de vele interfaces die achter een applicatie zitten.</p>
+      </div>
+    </div>
+  </div>
+  <div class="api_todolist">
+    <img src="links/todolist/api_todolist.png" alt="api's">
+  </div>
+</div>
+<!-- End API -->
+
+<!-- customer journey -->
+<div class="container-fluid" style="background-color: #ffffff;">
+  <div class="onderdeel_project">
+    <div class="row" style="margin-top: 4%; margin-bottom: 4%;">
+      <div class="col-sm-12">
+        <h5 class="titel"> CUSTOMER JOURNEY </h5>
+        <hr align="center">
+        <br>
+        <div class="width">
+          <p>Ik heb een customer journey gemaakt om een overzicht te hebben wat een gebruiker voor, tijdens en na de reis zoal doet. Er zijn vragen gesteld aan een persoon die bekend is met reizen zodat er meteen duidelijk is waar het mis zou kunnen gaan.</p>
+          <br>
+          <div class="customerjourney_todolist">
+          <img src="links/todolist/customerjourney_todolist.png" alt="customer journey">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- End customer journey -->
+
+<!-- Wireflow -->
+<div class="container-fluid" style="width:80%; margin-top: 4%; margin-bottom: 4%;">
+  <div class="opdracht">
+    <div class="row">
+      <div class="col-sm-12">
+        <h5 class="titel"> WIREFLOW </h5>
+        <hr align="center">
+        <br>
+        <p>Tijdens het proces heb ik een wireflow gemaakt die laat zien wat je met de website kan doen. De functionaliteiten van de website sluiten aan bij de doelen van de gebruikers. Ik heb verschillende schermen uitgewerkt en beschreven wat je er kan doen.</p>
+      </div>
+    </div>
+  </div>
+  <div class="wireflow_todolist">
+    <img src="links/todolist/wireflow_todolist.png" alt="wireflow">
+  </div>
+</div>
+<!-- End Wireflow -->
+
+<!-- multi device -->
+<div class="container-fluid" style="background-color: #ffffff;">
+  <div class="onderdeel_project">
+    <div class="row" style="margin-top: 7%;">
+      <div class="col-sm-12">
+        <h5 class="titel"> MULTI-DEVICE </h5>
+        <hr align="center">
+        <br>
+        <div class="width">
+          <p>Ik heb mij er op gericht dat de gebruiker tijdens zijn reis geen laptop nodig heeft en zijn to-do list kan bijhouden op zijn mobiel. Ook kan de gebruikers tijdens de reis altijd nog verschillende bezienswaardigheden toevoegen. </p>
+        </div>
+        <br>
+      </div>
+    </div>
+    <div class="mockup_todolist">
+      <img src="links/todolist/mockups_todolist.png" alt="mobiel to-do list app">
+    </div>
+    </div>
+</div>
+<!-- End multi device -->
+
+<!-- Conclusie -->
+<div class="container-fluid" style="width:80%; margin-top: 4%; margin-bottom: 4%;">
+  <div class="opdracht">
+    <div class="row">
+      <div class="col-sm-12">
+        <h5 class="titel"> CONCLUSIE </h5>
+        <hr align="center">
+        <br>
+        <p>Ik heb tijdens dit project geleerd iteratief te werken door mijn ideeën te verbeteren, feedback op te nemen en vervolgens aanpassingen te doen. Door mijn proces bij te houden hield ik het overzicht voor mezelf. Ik ben dicht bij mezelf gebleven bij het concept en heb gekeken naar wat ik mis als ik op reis ga. Hierdoor werd het voor mij makkelijker me op te stellen als gebruiker.</p>
+        <p>Het uiteindelijke project is netjes afgerond en de beoordelaars waren tevreden over het resultaat.</p>
+     </div>
+   </div>
+  </div>
+  <div class="andere_projecten">
+    <hr align="center">
+      <div class="row" style="margin-top:10%;">
+        <div class="col-sm-4">
+          <div class="container">
+            <div class="margin_work">
+            <div class="img">
+              <a href="stevengeldof.html"><img src="links/geldoffilm/werk_steven.png"></a>
+            </div>
+            <h6> Wordpress, Indesign, Photoshop, Illustrator </h6>
+            <h1> STEVEN GELDOF </h1>
+            <h6 class="subtitel_work"> STAGE PROJECT </h6>
+            <hr>
+            <center><a href="stevengeldof.html">Bekijk project ></a></center>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="container">
+            <div class="margin_work">
+            <div class="img">
+              <a href="jokesol.html"><img src="links/jokesol/werk_jokesol.png"></a>
+            </div>
+            <h6> Indesign, Photoshop, Illustrator, Adobe xd </h6>
+            <h1> JOKE SOL </h1>
+            <h6 class="subtitel_work"> EXAMEN PROJECT VOOR KLANT </h6>
+            <hr>
+            <center><a href="jokesol.html">Bekijk project ></a></center>
+          </div>
+        </div>
+       </div>
+       <div class="col-sm-4">
+         <div class="container">
+           <div class="margin_work">
+           <div class="img">
+             <a href="nu-in.html"><img src="links/nuin/werk_nuin.png"></a>
+           </div>
+           <h6> HTML, CSS, Photoshop </h6>
+           <h1> NU-IN FASHION </h1>
+           <h6 class="subtitel_work"> SCHOOL PROJECT </h6>
+           <hr>
+           <center><a href="nu-in.html">Bekijk project ></a></center>
+         </div>
+       </div>
+      </div>
+     </div>
+  </div>
+<!-- End Conclusie -->
+
+<!-- linkedin -->
+<div class="container-fluid" style="width:80%; margin-top: 8%; margin-bottom: 3%;">
+  <div class="row">
+    <div class="col-md-12">
+      <a href="https://www.linkedin.com/in/ysabellavargasreyes" target="_blank" style="text-decoration: underline; display: block; margin-left: auto; margin-right:auto" class="button button2">LINKEDIN</a>
+    </div>
+  </div>
+</div>
+<!-- end linkedin -->
+
+<!-- Copyright -->
+<div class="container-fluid" style="width:80%; margin-bottom:1%;">
+  <div class="row">
+    <div class="col-md-12">
+      <p class="copyright">Copyright © 2020 Ysabella Vargas Reyes</p>
+    </div>
+    <div class="col-md-12">
+      <!-- Trigger/Open The Modal -->
+      <button id="myBtn">LEGAL NOTICE</button>
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h5 class="legal_notice_titel">LEGAL NOTICE </h5>
+          <p class="legal_notice_text"> Ysabella Vargas Reyes </p>
+          <h1 class="legal_notice_subtitel">Verantwoordelijkheid voor inhoud</h1>
+          <p class="legal_notice_text">De inhoud van de pagina's van Ysabella Vargas Reyes zijn met grote zorg samengesteld.
+            Ik kan echter de nauwkeurigheid, volledigheid of actualiteit van de inhoud niet garanderen.
+            Volgens de wettelijke bepalingen ben ik ook verantwoordelijk voor mijn eigen inhoud op deze webpagina’s.
+            Houd er rekening mee dat ik dus niet verplicht ben om de doorgegeven of opgeslagen informatie van derden te controleren of om omstandigheden te onderzoeken die wijzen op illegale activiteiten.</p>
+          <h1 class="legal_notice_subtitel">Verantwoording voor links</h1>
+          <p class="legal_notice_text">De verantwoordelijkheid voor de inhoud van externe links (naar webpagina's van derden) ligt uitsluitend bij de beheerder van de gelinkte pagina's.
+            Elke verbinding naar andere sites wordt slechts geboden voor het gemak van de gebruikers van deze site.
+            Geen overtredingen waren duidelijk voor mij op het moment van koppelen.
+            Mocht een juridische inbreuk me bekend worden, zal ik de betreffende link onmiddellijk verwijderen.</p>
+          <h1 class="legal_notice_subtitel">Auteursrecht</h1>
+          <p class="legal_notice_text">De webpagina's van Ysabella Vargas Reyes en de inhoud ervan zijn onderworpen aan de Nederlandse auteursrechtwetgeving.
+            Alle afbeeldingen, merken, namen etc. die voorkomen op deze site zijn beschermd.
+            Elke vorm van gebruik, reproductie of verwerking van werken die onder de bescherming van het auteursrecht op mijn webpagina's vallen, voorafgaande toestemming van de respectieve eigenaar van de rechten vereist.
+            Ongeoorloofd gebruik van auteursrechtelijk beschermde werken is strafbaar.</p>
+          <h1 class="legal_notice_subtitel">Rechtsgeldigheid van deze disclaimer</h1>
+          <p class="legal_notice_text">Indien delen van / in deze tekst niet, niet meer of niet volledig rechtsgeldig zijn, doet dat geen afbreuk aan de rechtsgeldigheid van de overige delen van deze disclaimer.</p>
+        </div><!-- End Modal content -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end Copyright -->
+
+<script type="text/javascript" src="myscript.js"></script>
+</body>
+</html>
